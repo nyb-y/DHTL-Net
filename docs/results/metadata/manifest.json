@@ -1,0 +1,9 @@
+{
+  "runs_root": "runs_binary_iqa",
+  "out_dir": "docs/results/latest",
+  "loss_mode": "train",
+  "n_runs_loaded": 360,
+  "n_methods_loaded": 12,
+  "plot_data_policy": "Six figures are generated. Each uses seed0 only. FLOPs-vs-loss is an epoch-wise method curve.",
+  "warnings": []
+}

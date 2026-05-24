@@ -1,0 +1,13 @@
+method_id,method_label,macro_f1_mean_std,bacc_mean_std,tn_true_unusable_pred_unusable,fp_true_unusable_pred_usable,fn_true_usable_pred_unusable,tp_true_usable_pred_usable
+DHTL_wo_KMD,DHTL-Net,90.82+/-0.81,90.88+/-0.76,1743,152,213,1872
+DAF,DHTL-Net w/o KMD,90.31+/-0.77,90.38+/-0.73,1734,161,224,1861
+fusion_residual,Residual,88.37+/-1.02,88.46+/-1.00,1703,192,270,1815
+fusion_fixed_interp,FixedInterp,86.79+/-0.47,86.91+/-0.63,1686,209,316,1769
+fusion_learnable_interp,LearnableInterp,87.51+/-0.94,87.63+/-1.00,1708,187,310,1775
+fusion_gating,Gating,87.35+/-0.10,87.44+/-0.08,1690,205,298,1787
+fusion_adapter,Adapter,87.81+/-0.73,88.01+/-0.76,1747,148,337,1748
+transfer_frozen,Frozen,78.55+/-0.25,78.84+/-0.33,1603,292,561,1524
+transfer_all,All,88.56+/-1.32,88.66+/-1.37,1716,179,276,1809
+transfer_l4,FT-S4,87.36+/-1.20,87.47+/-1.17,1701,194,309,1776
+transfer_l34,FT-S3-S4,87.76+/-0.81,87.91+/-0.83,1723,172,315,1770
+transfer_l234,FT-S2-S4,88.51+/-1.46,88.68+/-1.40,1745,150,307,1778

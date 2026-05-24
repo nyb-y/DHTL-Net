@@ -1,0 +1,14 @@
+method_id,model,run_dir,role,runs,macro_f1_mean_std,bacc_mean_std,local_checkpoint,size_mb,release_asset
+source_resnet50,ResNet50 source pretrain,runs_plane,source-task checkpoint,1,,,runs_plane/best_resnet50_imagenet.pth,90.03,best_resnet50_imagenet.pth
+DHTL_wo_KMD,DHTL-Net,DHTL_wo_KMD_seed0,target-task checkpoint,30,90.82+/-0.81,90.88+/-0.76,runs_binary_iqa/DHTL_wo_KMD_seed0/best_model.pth,211.85,DHTL_wo_KMD_seed0_best_model.pth
+DAF,DHTL-Net w/o KMD,DAF_seed0,target-task checkpoint,30,90.31+/-0.77,90.38+/-0.73,runs_binary_iqa/DAF_seed0/best_model.pth,212.14,DAF_seed0_best_model.pth
+fusion_residual,Residual,fusion_residual_seed0,baseline checkpoint,30,88.37+/-1.02,88.46+/-1.00,runs_binary_iqa/fusion_residual_seed0/best_model.pth,180.00,fusion_residual_seed0_best_model.pth
+fusion_fixed_interp,FixedInterp,fusion_fixed_interp_seed0,baseline checkpoint,30,86.79+/-0.47,86.91+/-0.63,runs_binary_iqa/fusion_fixed_interp_seed0/best_model.pth,180.00,fusion_fixed_interp_seed0_best_model.pth
+fusion_learnable_interp,LearnableInterp,fusion_learnable_interp_seed0,baseline checkpoint,30,87.51+/-0.94,87.63+/-1.00,runs_binary_iqa/fusion_learnable_interp_seed0/best_model.pth,180.00,fusion_learnable_interp_seed0_best_model.pth
+fusion_gating,Gating,fusion_gating_seed0,baseline checkpoint,30,87.35+/-0.10,87.44+/-0.08,runs_binary_iqa/fusion_gating_seed0/best_model.pth,182.68,fusion_gating_seed0_best_model.pth
+fusion_adapter,Adapter,fusion_adapter_seed0,baseline checkpoint,30,87.81+/-0.73,88.01+/-0.76,runs_binary_iqa/fusion_adapter_seed0/best_model.pth,182.67,fusion_adapter_seed0_best_model.pth
+transfer_frozen,Frozen,transfer_frozen_seed0,baseline checkpoint,30,78.55+/-0.25,78.84+/-0.33,runs_binary_iqa/transfer_frozen_seed0/best_model.pth,90.01,transfer_frozen_seed0_best_model.pth
+transfer_all,All,transfer_all_seed0,baseline checkpoint,30,88.56+/-1.32,88.66+/-1.37,runs_binary_iqa/transfer_all_seed0/best_model.pth,90.01,transfer_all_seed0_best_model.pth
+transfer_l4,FT-S4,transfer_l4_seed0,baseline checkpoint,30,87.36+/-1.20,87.47+/-1.17,runs_binary_iqa/transfer_l4_seed0/best_model.pth,90.01,transfer_l4_seed0_best_model.pth
+transfer_l34,FT-S3-S4,transfer_l34_seed0,baseline checkpoint,30,87.76+/-0.81,87.91+/-0.83,runs_binary_iqa/transfer_l34_seed0/best_model.pth,90.01,transfer_l34_seed0_best_model.pth
+transfer_l234,FT-S2-S4,transfer_l234_seed0,baseline checkpoint,30,88.51+/-1.46,88.68+/-1.40,runs_binary_iqa/transfer_l234_seed0/best_model.pth,90.01,transfer_l234_seed0_best_model.pth

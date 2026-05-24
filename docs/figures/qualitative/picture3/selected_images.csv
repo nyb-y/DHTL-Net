@@ -1,0 +1,5 @@
+﻿image_index,image_path,gt_label,selection_mode
+1,data/final_dataset_link/usable/23d90415-7355-4677-83aa-a214f6b17c03.mha_p_0.png,usable,auto:DAF_vs_all
+2,data/final_dataset_link/usable/97363a66-8aec-4b52-8797-514e8c98205b.mha_p_1.png,usable,auto:DAF_vs_all
+3,data/final_dataset_link/unusable/970b5275-ac9c-4844-abf5-d291becaf186.mha_n_0.png,unusable,auto:DAF_vs_all
+4,data/final_dataset_link/unusable/5d8f1a4a-dc8a-402a-b8ac-64773efbd299.mha_n_1.png,unusable,auto:DAF_vs_all

@@ -1,0 +1,230 @@
+{
+  "DHTL_wo_KMD": {
+    "method_label": "DHTL-Net",
+    "macro_f1_mean_std": "90.82+/-0.81",
+    "bacc_mean_std": "90.88+/-0.76",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1743,
+        152
+      ],
+      [
+        213,
+        1872
+      ]
+    ]
+  },
+  "DAF": {
+    "method_label": "DHTL-Net w/o KMD",
+    "macro_f1_mean_std": "90.31+/-0.77",
+    "bacc_mean_std": "90.38+/-0.73",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1734,
+        161
+      ],
+      [
+        224,
+        1861
+      ]
+    ]
+  },
+  "fusion_residual": {
+    "method_label": "Residual",
+    "macro_f1_mean_std": "88.37+/-1.02",
+    "bacc_mean_std": "88.46+/-1.00",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1703,
+        192
+      ],
+      [
+        270,
+        1815
+      ]
+    ]
+  },
+  "fusion_fixed_interp": {
+    "method_label": "FixedInterp",
+    "macro_f1_mean_std": "86.79+/-0.47",
+    "bacc_mean_std": "86.91+/-0.63",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1686,
+        209
+      ],
+      [
+        316,
+        1769
+      ]
+    ]
+  },
+  "fusion_learnable_interp": {
+    "method_label": "LearnableInterp",
+    "macro_f1_mean_std": "87.51+/-0.94",
+    "bacc_mean_std": "87.63+/-1.00",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1708,
+        187
+      ],
+      [
+        310,
+        1775
+      ]
+    ]
+  },
+  "fusion_gating": {
+    "method_label": "Gating",
+    "macro_f1_mean_std": "87.35+/-0.10",
+    "bacc_mean_std": "87.44+/-0.08",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1690,
+        205
+      ],
+      [
+        298,
+        1787
+      ]
+    ]
+  },
+  "fusion_adapter": {
+    "method_label": "Adapter",
+    "macro_f1_mean_std": "87.81+/-0.73",
+    "bacc_mean_std": "88.01+/-0.76",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1747,
+        148
+      ],
+      [
+        337,
+        1748
+      ]
+    ]
+  },
+  "transfer_frozen": {
+    "method_label": "Frozen",
+    "macro_f1_mean_std": "78.55+/-0.25",
+    "bacc_mean_std": "78.84+/-0.33",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1603,
+        292
+      ],
+      [
+        561,
+        1524
+      ]
+    ]
+  },
+  "transfer_all": {
+    "method_label": "All",
+    "macro_f1_mean_std": "88.56+/-1.32",
+    "bacc_mean_std": "88.66+/-1.37",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1716,
+        179
+      ],
+      [
+        276,
+        1809
+      ]
+    ]
+  },
+  "transfer_l4": {
+    "method_label": "FT-S4",
+    "macro_f1_mean_std": "87.36+/-1.20",
+    "bacc_mean_std": "87.47+/-1.17",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1701,
+        194
+      ],
+      [
+        309,
+        1776
+      ]
+    ]
+  },
+  "transfer_l34": {
+    "method_label": "FT-S3-S4",
+    "macro_f1_mean_std": "87.76+/-0.81",
+    "bacc_mean_std": "87.91+/-0.83",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1723,
+        172
+      ],
+      [
+        315,
+        1770
+      ]
+    ]
+  },
+  "transfer_l234": {
+    "method_label": "FT-S2-S4",
+    "macro_f1_mean_std": "88.51+/-1.46",
+    "bacc_mean_std": "88.68+/-1.40",
+    "class_order": [
+      "unusable",
+      "usable"
+    ],
+    "confusion_matrix_sum_over_seeds": [
+      [
+        1745,
+        150
+      ],
+      [
+        307,
+        1778
+      ]
+    ]
+  }
+}
